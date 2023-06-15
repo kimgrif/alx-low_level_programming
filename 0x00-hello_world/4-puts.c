@@ -3,9 +3,9 @@
 /**
 *main - entry point
  *
- *printf not allowed
+ * puzzle, followed by a newline.
  *
- *return; always 0 (success)
+ *Return; always 0 (success)
 */
 
 int main(void)
