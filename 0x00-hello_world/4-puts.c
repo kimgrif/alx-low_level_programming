@@ -2,8 +2,10 @@
 
 /**
 *main - entry point
-*printf not allowed
-*return; always 0 (success)
+ *
+ *printf not allowed
+ *
+ *return; always 0 (success)
 */
 
 int main(void)
