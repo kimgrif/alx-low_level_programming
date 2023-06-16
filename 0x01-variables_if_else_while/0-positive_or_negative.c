@@ -5,9 +5,9 @@
 /**
  * main - Entry point of the program
  *
- * Description: Generates a random number and checks if the number is greater than 0:
- *              it is positive. If the number is 0, it is zero. If the number is less
- *              than 0, it is negative.
+ * Description: Generates a random number and checks if the number is greater
+ *              than 0: it is positive. If the number is 0, it is zero. If the
+ *              number is less than 0, it is negative.
  *
  * Return: Always 0 (indicating success)
  */
