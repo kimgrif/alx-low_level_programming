@@ -30,7 +30,7 @@ printf("%d and is less than 6 and not 0\n", l);
 }
 else
 {
-printf("%d and is 0 ", l);
+printf("%d and is 0\n", l);
 }
 return (0);
 }
