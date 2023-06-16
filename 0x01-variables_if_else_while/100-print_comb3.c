@@ -1,5 +1,13 @@
 #include<stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: pprints all possible different combinations of two digits.
+ *              starting from 0, followed by a new line
+ * Return: Always 0 (indicating success)
+*/
+
 int main(void)
 {
 int f_num = 0, s_num;
