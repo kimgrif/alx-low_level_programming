@@ -20,7 +20,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 printf("Last digit of %d is ", n);
 l = n % 10;
-if (l > 5)
+if (l > 5 && l !=0)
 {
 printf("%d and is greater than 5\n", l);
 }
