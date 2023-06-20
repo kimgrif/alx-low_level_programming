@@ -3,8 +3,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the alphabet in using putchar 
- *              from a ... z
+ * Description: Prints the alphabet in using putchar
+ *              from a ... z using for loop
  *
  * Return: Always 0 (indicating success)
  */
