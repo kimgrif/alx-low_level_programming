@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the alphabet in without using putchar twice
+ * Description: Prints the alphabet in using putchar twice
  *              from a ... z
  *
  * Return: Always 0 (indicating success)
