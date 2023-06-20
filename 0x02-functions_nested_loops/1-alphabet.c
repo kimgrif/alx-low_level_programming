@@ -1,21 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point of the program
  *
- * Description: Prints the alphabet in using putchar twice
+ * Description: Prints the alphabet in using putchar 
  *              from a ... z
  *
  * Return: Always 0 (indicating success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 char alphabet;
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-putchar(alphabet);
+_putchar(alphabet);
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
