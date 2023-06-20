@@ -3,7 +3,7 @@
 /**
  * print_times_table - prints time table of n
  *
- * @n: takes zber input
+ * @n: takes number input
 */
 
 void print_times_table(int n)
@@ -27,7 +27,8 @@ if (x >= 100)
 {
 _putchar((x / 100) + 48);
 _putchar((x / 10) % 10 + 48);
-} else if (x <= 99 && x >= 10)
+}
+else if (x <= 99 && x >= 10)
 {
 _putchar((x / 10) + 48);
 _putchar((x % 10) + 48);
