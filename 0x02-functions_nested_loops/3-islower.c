@@ -3,7 +3,7 @@
 /**
  * main - check the code.
  *
- *int _islower - Returns 1 if c is lowercase
+ *_islower - Returns 1 if c is lowercase
  *
  * Return: Always 0.
  */
@@ -11,8 +11,8 @@
 
 int _islower(int c)
 {
-char x;
-if (x == 'c')
+char x = (char)c;
+if (x >= 'a' && x <= 'z')
 {
 return (1);
 }
