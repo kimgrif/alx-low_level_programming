@@ -10,7 +10,7 @@
 int _isalpha(int c)
 {
 char x = (char)c;
-if (x >= 'a' && x <= 'z' || x >= 'A' && x <= 'Z')
+if ((x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z'))
 {
 return (1);
 }
