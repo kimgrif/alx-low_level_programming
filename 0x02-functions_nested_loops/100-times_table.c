@@ -28,6 +28,7 @@ if (x >= 100)
 _putchar((x / 100) + 48);
 _putchar((x / 10) % 10 + 48);
 } else if (x <= 99 && x >= 10)
+{
 _putchar((x / 10) + 48);
 _putchar((x % 10) + 48);
 }
