@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
  * main - Entry point of the program
@@ -11,6 +11,7 @@
 
 int main(void)
 {
-_putchar('\n');
+const char *cara = "_putchar\n";
+write(1, cara, 9);
 return (0);
 }
