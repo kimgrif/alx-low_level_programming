@@ -19,9 +19,9 @@ else if (a == 0)
 _putchar('0');
 return (0);
 }
-else
+else if (a < 0)
 {
 _putchar('-');
-return (0);
+return (-1);
 }
 }
