@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_square- prints a square line in the terminal.
- *@n: number being checked
+ *@size: number being checked
  *Return:  (Success)
 */
 void print_square(int size)
