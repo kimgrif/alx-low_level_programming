@@ -1,22 +1,19 @@
 #include "main.h"
 
 /**
- * puts_half - prints every other character of a string
+ * puts2 - prints every other character of a string
  *              starting with the first character,
  *              followed by a new line
  * @str: string to print
  */
 
-void puts_half(char *str)
+void puts2(char *str)
 {
-int a, b, counter;
-counter = 0;
-for (a = 0; str[a] != '\0'; a++)
-counter++;
-b = (counter / 2);
-if ((counter % 2) == 1)
-b = ((counter + 1) / 2);
-for (a = b; str[a] != '\0'; a++)
-_putchar(str[a]);
-_putchar('\n');
+int a;
+for (a = 0; str[a] != '\0'; ++a)
+{
+if (i % 2 == 0)
+_putchar(str[i]);
+}
+_putchar('\n')
 }
