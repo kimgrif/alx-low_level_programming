@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _main - Entry point of the program
+ * main - Entry point of the program
  * @argc: The number of command-line arguments
  * @argv: An array of command-line argument strings
  *
