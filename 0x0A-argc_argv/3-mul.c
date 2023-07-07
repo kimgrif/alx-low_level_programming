@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 int a;
-if (argc != 5)
+if (argc != 3)
 {
 printf("Error\n");
 return (1);
