@@ -63,8 +63,8 @@ free(dog);
 free(dog->name);
 return (NULL);
 }
-_strcpy(dog->name, name);
-_strcpy(dog->owner, owner);
+dog->name = _strcopy(dog->name, name);
 dog->age = age;
+dog->owner = _strcopy(dog->owner, owner);
 return (dog);
 }
