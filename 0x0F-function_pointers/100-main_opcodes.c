@@ -10,34 +10,28 @@
  */
 int main(int argc, char *argv[])
 {
-int bytes, i;
-char *ptr;
+	int index, nbytes;
+	char *ptr = (char *) main;
 
-if (argc != 2)
-{
-printf("Error\n");
-exit(1);
-}
+	if (argc != 2)
+	{
+		printf("Error\n");
+		exit(1);
+	}
 
-bytes = atoi(argv[1]);
+	nbytes = atoi(argv[1]);
+	if (nbytes < 0)
+	{
+		printf("Error\n");
+		exit(2);
+	}
 
-if (bytes < 0)
-{
-printf("Error\n");
-exit(2);
-}
-
-ptr = (char *)main;
-
-for (i = 0; i < bytes; i++)
-{
-if (i == bytes - 1)
-{
-printf("%02hhx\n", ptr[i]);
-break;
-}
-printf("%02hhx ", ptr[i]);
-}
-
-return (0);
+	for (index = 0; index < nbytes; index++)
+	{
+		printf("%02x", ptr[index] & 0xFF);
+		if (index != nbytes - 1)
+			printf(" ");
+	}
+	printf("\n");
+	return (0);
 }
